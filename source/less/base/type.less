@@ -1,0 +1,46 @@
+
+html {
+  background: #C8C9CE url(../img/header-bg.jpg) no-repeat top center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 1024px;
+  font-size: 14px;
+  line-height: 24/14;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*:hover {
+  transition: 0.3s ease all;
+
+  &:before,
+  &:after {
+    transition: 0.3s ease all;
+  }
+}
+
+body {
+  .padding_margin_kill;
+  width: 100%;
+  min-width: @container_min;
+  font-family: @ff_base;
+  color: @c_dark;
+  font-size: 14px;
+  line-height: 24/14;
+}
+
+p {
+  padding: 0;
+  padding-bottom: 7px;
+  margin: 0;
+  font-weight: bold;
+  max-height: 9001em;
+}

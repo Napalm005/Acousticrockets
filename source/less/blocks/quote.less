@@ -1,0 +1,33 @@
+.quote {
+  max-width: 427px;
+  margin-top: 16px;
+  margin-left: 0;
+
+  &:before {
+    position: absolute;
+    content: '';
+    background: url(../img/spritesheet.png) no-repeat -134px -5px;
+    display: block;
+    width: 69px;
+    height: 47px;
+    margin-top: 5px;
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 30px;
+    max-height: 9001em;
+    color: #895829;
+    padding-left: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  &__author {
+    font-size: 12px;
+    line-height: 24px;
+    color: #000;
+    float: right;
+    font-weight: bold;
+    font-style: normal;
+  }
+}

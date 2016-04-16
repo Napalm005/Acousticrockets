@@ -1,0 +1,32 @@
+.about-us {
+  margin-top: 72px;
+  margin-bottom: 77px;
+  font-family: 'Roboto', sans-serif;
+
+  &__text {
+    max-width: 530px;
+    float: left;
+    margin-top: -5px;
+  }
+
+  &__photo-group {
+    float: right;
+
+    &--hidden-lg {
+      display: none;
+    }
+  }
+
+
+
+  @media (max-width: 800px) {
+    &__photo-group {
+      float: none;
+      display: none;
+
+      &--hidden-lg {
+        display: block;
+      }
+    }
+  }
+}
